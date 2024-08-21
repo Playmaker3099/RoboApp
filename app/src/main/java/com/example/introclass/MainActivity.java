@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     //Button btnRed,btnYellow, btnGreen;
     Button insert;
 
-    private DBHelper dbhelper;
+    //private DBHelper dbhelper;
     EditText edtName, edtRoboname;
 
     TextView tvUsername;
@@ -83,17 +83,7 @@ public class MainActivity extends AppCompatActivity {
         edtName.setText(username);
     }
 
-   /* @Override
-    protected void onPause() {
-        super.onPause();
 
-        //storing of data
-        SharedPreferences storePreference = getSharedPreferences("RoboPrefs", MODE_PRIVATE);
-        SharedPreferences.Editor sharedPrefsEditor = storePreference.edit();
-
-        sharedPrefsEditor.putString("username", edtName.getText().toString());
-        sharedPrefsEditor.apply();
-    }*/
 
 
     private void setSupportActionBar(Toolbar robotoolbar) {
@@ -127,12 +117,12 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    edtRoboname = findViewbyId(R.id.edtRoboname);
+    /*edtRoboname = findViewbyId(R.id.edtRoboname);
     btnInsert = findViewbyId(R.id.btnInsert);
 
     dbhelper = new DBHelper(this);
 
-    btnInsert
+    btnInsert*/
 }
 /*
 * Components used are as follows
