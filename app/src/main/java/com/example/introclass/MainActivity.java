@@ -34,9 +34,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        /*btnRed = findViewById(R.id.btnRed);
-        btnGreen = findViewById(R.id.btnGreen);
-        btnYellow = findViewById(R.id.btnYellow);*/
+
 
         tvUsername = findViewById(R.id.tvUsername);
         SharedPreferences preferences = getSharedPreferences("RoboPrefs", MODE_PRIVATE);
@@ -45,23 +43,7 @@ public class MainActivity extends AppCompatActivity {
         //SharedPreference
         //edtName = findViewById(R.id.edtName);
         //SharedPreference
-        /*btnYellow.setOnClickListener(v -> {
-            //navigate to yellow activity
-            Intent yellowIntent = new Intent(this, YellowActivity.class);
-            startActivity(yellowIntent);
-        });
 
-        btnRed.setOnClickListener(v -> {
-            //navigate to red activity
-            Intent redIntent = new Intent(this, RedActivity.class);
-            startActivity(redIntent);
-        });
-
-        btnGreen.setOnClickListener(v -> {
-            //navigate to green activity
-            Intent greenIntent = new Intent(this, GreenActivity.class);
-            startActivity(greenIntent);
-        });*/
 
         //Toolbar || Topic2, 3
 
