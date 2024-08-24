@@ -7,55 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <include layout="@layout/activity_toolbar"
-        android:id="@+id/include"/>
+    <include
+        android:id="@+id/include"
+        layout="@layout/activity_toolbar"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <!--<Button
-        android:id="@+id/btnYellow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Yellow"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.816" />
-
-    <Button
-        android:id="@+id/btnGreen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Green"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.935" />
-
-    <Button
-        android:id="@+id/btnRed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Red"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.707" />
-
-    <EditText
-        android:id="@+id/edtName"
-        android:layout_width="82dp"
-        android:layout_height="43dp"
-        android:ems="10"
-        android:hint=""
-        android:inputType="text"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="107dp" />-->
 
     <TextView
         android:id="@+id/tvUsername"
